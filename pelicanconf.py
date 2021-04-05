@@ -5,7 +5,16 @@ AUTHOR = 'FS Bhatti'
 SITENAME = 'Sunny Website'
 SITEURL = ''
 
-PATH = 'content/posts'
+# Paths
+PATH = 'content'
+PAGE_PATHS = ['pages']
+ARTICLE_PATHS = ['posts']
+
+# Top menus
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = True
+
+
 
 TIMEZONE = 'Europe/Paris'
 
