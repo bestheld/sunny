@@ -8,6 +8,11 @@ from = "/old-path"
 status = 301
 to = "/new-path"
 
+[[redirects]]
+from = "sdsafsf"
+status = 999
+to = "dasdfasdf"
+
 [[plugins]]
 package = "netlify-plugin-gatsby-cache"
 
