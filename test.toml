@@ -1,17 +1,7 @@
 [[redirects]]
-from = "nothing special"
-status = 404
-to = "repository"
-
-[[redirects]]
 from = "12"
 status = 404
 to = "repository"
-
-[[redirects]]
-from = "no"
-status = 878
-to = "sdfsaf"
 
 [[redirects]]
 from = "well"
@@ -27,6 +17,11 @@ to = "/a"
 from = "/old-path"
 status = 301
 to = "/new-path"
+
+[[redirects]]
+from = "nothing special"
+status = 404
+to = "repository"
 
 [[plugins]]
 package = "netlify-plugin-gatsby-cache"
