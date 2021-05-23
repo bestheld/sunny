@@ -1,10 +1,5 @@
 [[redirects]]
-from = "12"
-status = 404
-to = "repository"
-
-[[redirects]]
-from = "well"
+from = "www.google.com"
 status = 22
 to = "repository"
 
@@ -20,6 +15,11 @@ to = "/new-path"
 
 [[redirects]]
 from = "nothing special"
+status = 404
+to = "repository"
+
+[[redirects]]
+from = "12"
 status = 404
 to = "repository"
 
