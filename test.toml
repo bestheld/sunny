@@ -1,9 +1,4 @@
 [[redirects]]
-from = "/old-path"
-status = 301
-to = "/new-path"
-
-[[redirects]]
 from = "abc"
 status = 878
 to = "sdfsaf"
@@ -17,6 +12,16 @@ to = "www.google.com"
 from = "Faisal"
 status = 12
 to = "ddd"
+
+[[redirects]]
+from = "www.google.com"
+status = 10
+to = "/a"
+
+[[redirects]]
+from = "/old-path"
+status = 301
+to = "/new-path"
 
 [[plugins]]
 package = "netlify-plugin-gatsby-cache"
